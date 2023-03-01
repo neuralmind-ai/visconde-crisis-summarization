@@ -1,1 +1,5 @@
-# visconde-crisis-summarization
+# Crisis Event Social Media Summarization with GPT-3 and Neural Reranking
+
+This repository maintain the code used in the experiments reported in the paper **[Crisis Event Social Media Summarization with GPT-3 and Neural Reranking](#)**, accepted for publication at the **20th Annual Global Conference on Information Systems for Crisis Response and Management ([ISCRAM 2023](https://www.unomaha.edu/college-of-information-science-and-technology/iscram2023/index.php))**
+
+> **Abstract:** Managing emergency events, such as natural disasters, requires management teams to have an up-to-date view of what is happening throughout the event. In this paper, we demonstrate how a method using a state-of-the-art open-sourced search engine and a large language model can generate accurate and comprehensive summaries by retrieving information from social media and online news sources.  We evaluated our method on the TREC CrisisFACTS challenge dataset using automatic summarization metrics (e.g., Rouge-2 and BERTScore) and the manual evaluation performed by the challenge organizers. Our approach is the best in comprehensiveness despite presenting a high redundancy ratio in the generated summaries. In addition, since all pipeline components are few-shot, there is no need to collect training data, allowing us to deploy the system rapidly.
